@@ -30,3 +30,5 @@ wordsMatrix[0].map((file1Item) => {
     });
   });
 });
+
+console.log("we are done with no error, dude! :D")
