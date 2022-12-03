@@ -25,7 +25,7 @@ fs.unlinkSync("./output.txt");
 wordsMatrix[0].map((file1Item) => {
   wordsMatrix[1].map((file2Item) => {
     wordsMatrix[2].map((file3Item) => {
-      fileContent = `${file1Item} ${file2Item} ${file3Item}\n`;
+      fileContent = `${file1Item.trim()} ${file2Item.trim()} ${file3Item.trim()}\n`;
       fs.appendFileSync(`output.txt`, fileContent);
     });
   });
