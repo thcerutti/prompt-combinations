@@ -1,0 +1,8 @@
+house
+teacher
+fly
+wing
+chicken
+doctor
+country
+tree

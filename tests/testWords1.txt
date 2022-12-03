@@ -1,0 +1,6 @@
+airplane
+duck
+boat
+car
+bear
+house
